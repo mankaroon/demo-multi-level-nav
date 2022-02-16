@@ -1,1 +1,25 @@
-/* developer styles go here */
+body{
+    font-family: sans-serif;
+}
+header{
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+/* step1. style everything for the small screen first */
+
+/* when styling the text, style the anchor tag directly to overwrite the browser styling. layout style 
+goes on the li element */
+
+ul.menu {
+    background-color: #191919;
+}
+
+ul.menu a{
+    color: #f5f5f5;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1rem;
+    /* "expand the clickable area to fill the whole Li element" */
+    display: block;
+}
